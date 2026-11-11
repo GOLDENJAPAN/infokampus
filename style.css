@@ -1,0 +1,95 @@
+/* Pengaturan seluruh halaman */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f5f9;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #174a7e;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+/* Navigasi */
+nav {
+    background-color: #12365b;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ffd166;
+}
+
+/* Konten utama */
+main {
+    max-width: 900px;
+    margin: 25px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+/* Judul */
+h2 {
+    color: #174a7e;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 8px;
+}
+
+/* Kartu informasi */
+.info-card {
+    background-color: #eef5fc;
+    padding: 15px;
+    margin: 15px 0;
+    border-left: 5px solid #174a7e;
+    border-radius: 5px;
+}
+
+.info-card h3 {
+    color: #174a7e;
+}
+
+.info-card span {
+    color: #777;
+    font-size: 13px;
+}
+
+/* Daftar jadwal */
+li {
+    margin: 10px 0;
+}
+
+/* Footer */
+footer {
+    background-color: #12365b;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+/* Tampilan HP */
+@media (max-width: 600px) {
+    main {
+        margin: 10px;
+        padding: 15px;
+    }
+
+    nav a {
+        margin: 0 7px;
+        font-size: 14px;
+    }
+}
